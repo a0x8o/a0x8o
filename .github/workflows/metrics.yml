@@ -42,7 +42,7 @@ jobs:
           user: a0x8o
           template: classic
           base: header
-          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          # config_timezone: ${{ secrets.USER_TIMEZONE }}
   lines:
     runs-on: ubuntu-latest
     permissions: 
@@ -73,7 +73,7 @@ jobs:
           user: a0x8o
           template: classic
           base: activity, community
-          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          # config_timezone: ${{ secrets.USER_TIMEZONE }}
 
   iso_calender:
     runs-on: ubuntu-latest
@@ -92,7 +92,7 @@ jobs:
           user: a0x8o
           template: classic
           base: ""
-          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          # config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
@@ -131,7 +131,7 @@ jobs:
           user: a0x8o
           template: classic
           base: ""
-          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          # config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_followup: yes
           plugin_languages: yes
 
@@ -151,5 +151,5 @@ jobs:
           user: a0x8o
           template: classic
           base: repositories
-          config_timezone: ${{ secrets.USER_TIMEZONE }}
+          # config_timezone: ${{ secrets.USER_TIMEZONE }}
 
